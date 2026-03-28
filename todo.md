@@ -1,18 +1,18 @@
 # PitchSide Pro AI Edition - TODO
 
 ## Phase 1: プロジェクト計画・データモデル設計
-- [ ] データベーススキーマ設計（チーム、選手、試合、イベント、スタッツ）
-- [ ] API仕様書作成（tRPC procedures定義）
-- [ ] UIコンポーネント構成図作成
-- [ ] デザインシステム確定（色、タイポグラフィ、レイアウト）
+- [x] データベーススキーマ設計（チーム、選手、試合、イベント、スタッツ）
+- [x] API仕様書作成（tRPC procedures定義）
+- [x] UIコンポーネント構成図作成
+- [x] デザインシステム確定（色、タイポグラフィ、レイアウト）
 
 ## Phase 2: データベーススキーマ実装・基本CRUD機能
-- [ ] Drizzleスキーマ定義（users, teams, categories, players, matches, events, stats）
-- [ ] マイグレーション実行（webdev_execute_sql）
-- [ ] チーム管理CRUD（作成、編集、削除、複数カテゴリ対応）
-- [ ] 選手管理CRUD（写真付き登録、自動リサイズ、編集、削除）
-- [ ] 大会名マスター管理機能
-- [ ] DB query helpers実装（server/db.ts）
+- [x] Drizzleスキーマ定義（users, teams, categories, players, matches, events, stats）
+- [x] マイグレーション実行（webdev_execute_sql）
+- [x] チーム管理CRUD（作成、編集、削除、複数カテゴリ対応）
+- [x] 選手管理CRUD（写真付き登録、自動リサイズ、編集、削除）
+- [x] 大会名マスター管理機能
+- [x] DB query helpers実装（server/db.ts）
 
 ## Phase 3: 試合記録UI・リアルタイムイベント機能
 - [ ] 試合設定画面（チーム選択、カテゴリ選択、大会名選択、AT設定）

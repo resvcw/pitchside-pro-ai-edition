@@ -12,6 +12,7 @@ import PlayerManagement from "./pages/PlayerManagement";
 import MatchLive from "./pages/MatchLive";
 import MatchHistory from "./pages/MatchHistory";
 import Statistics from "./pages/Statistics";
+import MatchSetup from "./pages/MatchSetup";
 
 function Router() {
   return (
@@ -43,6 +44,11 @@ function Router() {
       <Route path={"/statistics"} component={() => (
         <DashboardLayout>
           <Statistics />
+        </DashboardLayout>
+      )} />
+      <Route path={"/match/setup"} component={() => (
+        <DashboardLayout>
+          <MatchSetup />
         </DashboardLayout>
       )} />
       <Route path={"/404"} component={NotFound} />
